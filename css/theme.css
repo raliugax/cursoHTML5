@@ -1,0 +1,22 @@
+article {
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px black solid;
+	border-radius:25px;
+	padding: 2%;
+	min-width: 259px;
+}
+
+article img {
+display:block;
+	margin-bottom:5%;
+	-moz-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	-webkit-border-radius: 25px;
+
+}
+article img .responsive{
+
+	min-width: 259px;
+
+}

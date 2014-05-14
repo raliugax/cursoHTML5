@@ -1,401 +1,48 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Enjoy HTML5</title>
+  
+  
+  
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
 
-	<head>
-		<meta charset="utf-8">
+<link rel="stylesheet" href="css/tuktuk.css">
+<link rel="stylesheet" href="css/tuktuk.theme.mock.css">
+<!-- TUKTUK.WIDGETS -->
+<link rel="stylesheet" href="css/tuktuk.icons.css">  
 
-		<title>Diseño Web con HTML5, CSS3, jQuery Nivel Básico</title>
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+  </head>
+<body>
+	<header>
+	<nav>
+	<a href="/html">HTML</a> |
+	<a href="/css">CSS</a> |
+	<a href="/js">JavaScript</a> |
+	<a href="/jquery">jQuery</a>
+	</nav>
+	</header>
+ 
+ <article >
+ <center>
+ <img class="responsive rounded" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS47_ICVDLMz1Kwqz6_cdZzRm0Nu1g3lEnltEXWiR4vag3OwP6x-w" alt="Smiley face" >
+ </center>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor sagittis facilisis. Aenean congue consequat elit vel viverra. Nullam molestie posuere convallis. Quisque rutrum, tellus sollicitudin imperdiet fringilla, diam mi lobortis nunc, eget pellentesque velit nibh quis eros. Phasellus bibendum purus sit amet fermentum mattis. Nam suscipit velit et velit molestie posuere. Sed sapien risus, sollicitudin vitae lobortis at, consectetur vitae urna. Sed ut quam ornare, rhoncus arcu nec, lobortis augue. Nam laoreet libero sed nibh ornare varius. Aliquam facilisis dignissim metus, lacinia elementum velit blandit et. Suspendisse potenti. Nunc semper, erat ac pretium venenatis, nunc purus fermentum nisi, ac aliquet dui ante vitae ante. Duis tempus lacus eu dapibus pellentesque. Cras sit amet ligula quis diam vehicula tristique vitae sed orci. Maecenas porta ante sed massa elementum, vitae aliquet neque volutpat. Donec venenatis urna nec felis lacinia, vitae gravida elit sodales.
+ </article>
 
-		<meta name="description" content="Diseño Web con HTML5, CSS3, jQuery Nivel Básico">
-		<meta name="author" content="Carlos Rojas">
-
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
-
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
-
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-
-	<body>
-
-		<div class="reveal">
-
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Diseño Web con HTML5</h1>
-					<h6>carlosrojaso.github.io/cursoHTML5</h3>
-					<p>
-						<small>Dirigido por: <a href="http://www.carlosrojasblog.com">Carlos Rojas</a> / <a href="http://twitter.com/carlosrojas_o">@carlosrojas_o</a></small>
-					</p>
-				</section>
-
-				<!-- Video introductorio -->
-				<section>
-						<iframe width="560" height="315" src="http://www.youtube.com/embed/J0rKyOZX__k" frameborder="0" allowfullscreen></iframe>					
-				</section>
-
-				<section>
-					<section>
-						<h2>< whoami ></h2>
-						
-						<a href="#" class="image navigate-down">
-							<img src="images/carlosrojas.jpg" />
-						</a>
-					</section>
-					<section>
-						<h2>Desarrollador WEB</h2>
-						<p><i>desde 2004...</i></p>
-						<ul>
-						<li>PHP</li>
-						<li>Javascript</li>
-						<li>Enfocado en Moviles</li>
-						<li>algo de Python</li>
-						</ul>
-					</section>
-					<section>
-						<h2>Desarrollador Móvil</h2>
-						<p><i>desde 2006...</i></p>
-						<ul>
-						<li>WAP</li>
-						<li>WML</li>
-						<li>XHTML</li>
-						<li>Phonegap</li>
-						<li>Java</li>
-						<li>Objetive-C</li>
-						</ul>
-					</section>
-				</section>
-
-
-				<section>
-					<section>
-						<h2>Agenda</h2>
-						
-						<a href="#" class="image navigate-down">
-							<img src="images/schedule.png" />
-						</a>
-					</section>
-					<section>
-						<h2>1. Introducción</h2>
-						<ul>
-						<li>Historia</li>
-						<li>Importancia</li>
-						<li>Nuevas APIS</li>
-						</ul>
-					</section>
-					<section>
-						<h2>2. Hagamos una pagina con HTML5</h2>
-						<ul>
-						<li>Normalize,Modernizr, freepix</li>
-						<li>Etiquetas</li>
-						<li>Textos</li>
-						<li>Media</li>
-						</ul>
-					</section>
-					<section>
-						<h2>3. Un diseño, todas las pantallas </h2>
-						<ul>
-						<li>¿Que es el diseño responsivo?</li>
-						<li>Bootstrap, Foundation y Edge Flow</li>
-						<li>May the "code" be with you</li>
-						<li>Testing</li>
-						</ul>
-					</section>
-					<section>
-						<h2>4. JQuery </h2>
-						<ul>
-						<li>Algunos conceptos.</li>
-						<li>Algunos metodos importantes.</li>
-						<li>JQuery UI.</li>
-						<li>JQuery Mobile.</li>
-						<li>Finalizando nuestro Landing.</li>
-						</ul>
-					</section>
-				</section>
-
-				<section>
-					<section>	
-						<img src="images/intro.png" style="border:0" />
-					</section>
-					<section>
-						<h2>Historia</h2>
-						<ul>
-						<li>5ta revision del lenguaje.</li>
-						<li>Todavia experimental.</li>
-						<li>header,footer,section,article,time,video ...</li>
-						</ul>
-					</section>
-					<section>
-						<h2>Importancia</h2>
-						<ul>
-						<li>Canvas 2D y 3D, audio, vídeo</li>
-						<li>Etiquetas para manejar grandes conjuntos de datos.</li>
-						<li>Mejoras en los formularios.</li>
-						<li>Visores: MathML </li>
-						<li>Drag &amp; Drop</li>
-						<li>WEB semantica</li>
-						</ul>
-					</section>
-					<section>
-						<h2>APIS </h2>
-						<ul>
-						<li>API para hacer Drag &amp; Drop. Mediante eventos.</li>
-						<li>API para trabajar Off-Line.</li>
-						<li>API de Geoposicionamiento para dispositivos que lo soporten.</li>
-						<li>API Storage. </li>
-						<li>WebSockets.</li>
-						<li>WebWorkers.</li>
-						</ul>
-					</section>
-					
-				</section>
-
-				<section>
-					<section>
-						<h2>May the code be wit you...</h2>
-						
-						<a href="#" class="image navigate-down">
-							<img src="images/yoda.png" />
-						</a>
-					</section>
-					<section>
-						<h2>audio</h2>
-						<script src="https://gist.github.com/carlosrojaso/6f94ecf86e2aa6088bc5.js"></script>
-					</section>
-					<section>
-						<h2>Modernizr</h2>
-						<script src="https://gist.github.com/carlosrojaso/b6757d11bd3c201dc6d1.js"></script>
-					
-				</section>
-				<section>
-						<h2>Section</h2>
-						<script src="https://gist.github.com/carlosrojaso/442ae464769e60bdc2dc.js"></script>
-					
-				</section>
-				<section>
-						<h2>Article</h2>
-						<script src="https://gist.github.com/carlosrojaso/5133e2b00a7ca3cf1c85.js"></script>
-					    
-				</section>
-				<section>
-						<h2>Nav</h2>
-						<script src="https://gist.github.com/carlosrojaso/07332d7a315ec301cc04.js"></script>
-				</section>
-				<section>
-						<h2>Header</h2>
-						<script src="https://gist.github.com/carlosrojaso/3e0c8ee0debe3ed7197f.js"></script>
-				</section>
-				<section>
-						<h2>Footer</h2>
-						<script src="https://gist.github.com/carlosrojaso/56bf6fd1b7cc9bb743bf.js"></script>
-				</section>
-				<section>
-						<h2>Figure</h2>
-						<script src="https://gist.github.com/carlosrojaso/25074bded8cc20279de9.js"></script>
-				</section>
-				<section>
-						<h2>Datalist</h2>
-						<script src="https://gist.github.com/carlosrojaso/e0bcbe507ec3fbe1d53a.js"></script>
-				</section>
-				</section>
-
-				<!-- CSS3 -->
-				<section>
-					<section>	
-						<img src="images/css3.png" style="border:0" />
-					</section>
-					<section>
-						<h2>CSS1</h2>
-						<ul>
-						<li>Propiedades de las Fuente</a>, como tipo, tamaño, énfasis...</li>
-						<li>Color de texto, fondos, bordes u otros elementos.</li>
-						<li>Atributos del texto, como espaciado entre palabras, letras, líneas, etcétera.</li>
-						<li>Alineación de textos, imágenes, tablas u otros.</li>
-						<li>Propiedades de caja, como margen, borde, relleno o espaciado.</li>
-						<li>Propiedades de identificación y presentación de listas.</li>
-						</ul>
-					</section>
-					<section>
-						<h2>CSS2</h2>
-						<ul>
-						<li>Las funcionalidades propias de las capas (<tt>&lt;div&gt;</tt>) como de posicionamiento relativo/absoluto/fijo, niveles (<tt>z-index</tt>), etcétera.</li>
-						<li>El concepto de "<i>media types</i>",</li>
-						<li>Soporte para las hojas de estilo auditivas</li>
-						<li>Texto bidireccional, sombras, etcétera.</li>
-						</ul>
-					</section>
-					<section>
-						<h2>CSS3</h2>
-						<p align="left">
-						A diferencia de CSS2, que fue una gran especificación que definía varias funcionalidades, CSS3 está dividida en varios documentos separados, llamados "módulos". <br/><br/>
-
-						Cada módulo añade nuevas funcionalidades a las definidas en CSS2, de manera que se preservan las anteriores para mantener la compatibilidad.
-						</p>
-					</section>
-					</section>
-				<section>
-					<section>
-						<h2>Pages with Style...</h2>
-						
-						<a href="#" class="image navigate-down">
-							<img src="images/gangnamstyle.png" />
-						</a>
-					</section>
-					<section>
-						<h2>CSS3 The border-radius</h2>
-						<script src="https://gist.github.com/carlosrojaso/84a002c0667ae2f2a9de.js"></script>
-					</section>
-					<section>
-						<h2>CSS3 The box-shadow</h2>
-						<script src="https://gist.github.com/carlosrojaso/5cd3aac92c946031772d.js"></script>
-					
-				</section>
-				<section>
-						<h2>CSS3 The border-image</h2>
-						<script src="https://gist.github.com/carlosrojaso/5539d51b913398215ed6.js"></script>
-					
-				</section>
-				<section>
-						<h2>CSS3 The background-size</h2>
-						<script src="https://gist.github.com/carlosrojaso/7a48f614b22c4f5bedba.js"></script>
-				</section>
-				<section>
-						<h2>CSS3 The background-origin</h2>
-						<script src="https://gist.github.com/carlosrojaso/0d700ea0aed25ebb4d97.js"></script>
-				</section>
-				<section>
-						<h2>CSS3 Multiple Background Images</h2>
-						<script src="https://gist.github.com/carlosrojaso/9a4da583f2a0380aba83.js"></script>
-				</section>
-				<section>
-						<h2>CSS3 Linear Gradients</h2>
-						<script src="https://gist.github.com/carlosrojaso/eb197de8c25d49c630b7.js"></script>
-				</section>
-				<section>
-						<h2>CSS3 Text Shadow</h2>
-						<script src="https://gist.github.com/carlosrojaso/205ab1c3def5f9602f1e.js"></script>
-				</section>
-				<section>
-						<h2>CSS3 Web Fonts</h2>
-						<script src="https://gist.github.com/carlosrojaso/4d8adb2366844856918f.js"></script>
-				</section>
-
-				<section>
-						<h2>CSS3 2D Transforms</h2>
-						<script src="https://gist.github.com/carlosrojaso/900053b5885ae0f7b029.js"></script>
-				</section>
-
-				<section>
-						<h2>CSS3 3D Transforms</h2>
-						<script src="https://gist.github.com/carlosrojaso/939e8ab06f33b4ffc00a.js"></script>
-				</section>
-
-				<section>
-						<h2>CSS3 Transitions</h2>
-						<script src="https://gist.github.com/carlosrojaso/2fb356bfd72927469995.js"></script>
-				</section>
-
-				<section>
-						<h2>CSS3 Animations</h2>
-						<script src="https://gist.github.com/carlosrojaso/74319e392b02ebd5566e.js"></script>
-				</section>
-
-				<section>
-						<h2>CSS3 Multiple Columns</h2>
-						<script src="https://gist.github.com/carlosrojaso/b0e63edf738b350634e9.js"></script>
-				</section>
-
-				</section>
-
-				<!-- RWD Design -->
-				<section>
-				    <section>	
-						<img src="images/rwd.png" style="border:0" />
-					</section>
-					<section>
-						<h2>Caracteristicas</h2>
-						<ul>
-						<li>Adaptacion segun la pantalla.</li>
-						<li>Uso de @media para saber el archivo css.</li>
-						</ul>
-					</section>				
-				</section>
-
-				
-				<!-- javascript -->
-				<section>
-				    <section>	
-						<img src="images/javascript.png" style="border:0" />
-					</section>
-					<section>
-						<h2>Caracteristicas</h2>
-						<ul>
-						<li>Tipado dinámico</li>
-						<li>Objetual</li>
-						<li>Evaluación en tiempo de ejecución</li>
-						<li>Funciones de primera clase</li>
-						<li>Prototípico</li>
-						</ul>
-					</section>				
-				</section>
-
-		</div>			
-</div>
-				
-
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
-
-		<script>
-
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/fade/none
-
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
-
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-		</script>
-
-	</body>
+ 	<footer>
+ 			<nav>
+	<a href="/html">HTML</a> |
+	<a href="/css">CSS</a> |
+	<a href="/js">JavaScript</a> |
+	<a href="/jquery">jQuery</a>
+	</nav>
+	</footer>
+ <!-- Aca coloco todo mi js -->
+   <script src="js/modernizr-latest.js"></script>
+  <script src="js/prefixfree-min.js"></script>
+  <script src="js/tuktuk.js"></script>
+</body>
 </html>
